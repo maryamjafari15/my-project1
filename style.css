@@ -17,6 +17,7 @@ a{
 }
 .head{
     background-color: black;
+  
         }
 
 .header {
@@ -234,7 +235,7 @@ img.logo2{
     background-color: #f7f7f6;
     padding: 32px;
     border-radius: 25px;
-    width: 374px;
+    width: 25%;
     height: 196px;
     margin:10px;
     
@@ -244,7 +245,7 @@ img.logo2{
     background-color: #000000;
     padding: 32px;
     border-radius: 25px;
-    width: 374px;
+    width: 25%;
     height: 196px;
     margin:10px;
     color: white;
