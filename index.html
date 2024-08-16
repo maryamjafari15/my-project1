@@ -19,7 +19,7 @@
       </div>
     </div>
     <header>
-      <div class="navbar" class=".width">
+      <div class="navbar1" class=".width">
         <div class="logo-navbar">
           <div class="logo-nav">
             <img class="logo6" src="./assets/f.svg" alt="logo" />
@@ -56,9 +56,36 @@
           </ul>
         </div>
         <div class="sign">
-          <i class="fa fa-align-justify fa-2x"></i>
+          <div class="menu">
+            <i class="fa fa-align-justify fa-2x"></i>
+          </div>
           <a class="login" href="#">Log in</a>
           <a class="signin" href="#" style="text-decoration: none">Sign up</a>
+        </div>
+      </div>
+      <div class="navbar2">
+        <div class="mobile-links">
+          <ul class="menu-list">
+            <div class="item-svg">
+              <li><a class="item1" href="#">Products</a></li>
+              <img src="./assets/pic.svg" alt="svg" />
+            </div>
+            <div class="item-svg">
+              <li><a class="item1" href="#">Solutions</a></li>
+              <img src="./assets/pic.svg" alt="svg" />
+            </div>
+
+            <div class="item-svg">
+              <li><a class="item1" href="#">Resources</a></li>
+              <img src="./assets/pic.svg" alt="svg" />
+            </div>
+            <div class="item-svg">
+              <li><a class="item1" href="#">Enterprise</a></li>
+            </div>
+            <div class="item-svg">
+              <li><a class="item1" href="#">Pricing</a></li>
+            </div>
+          </ul>
         </div>
       </div>
     </header>
@@ -72,7 +99,7 @@
           </div>
           <div class="rightside">
             <p class="headtext">
-              Make forms <br>
+              Make forms <br />
               worth filling out
             </p>
             <p class="maintext">
@@ -480,5 +507,10 @@
         </div>
       </div>
     </div>
+    <script>
+      document.querySelector(".menu").addEventListener("click", function () {
+        document.querySelector(".navbar2").classList.toggle("navbar3");
+      });
+    </script>
   </body>
 </html>

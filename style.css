@@ -99,10 +99,40 @@ a{
     .navigation .menu-list .item-svg{
         display: none;
     }
-    .sign i{
+    .sign i {
         display: inline-block!important;
         cursor: pointer;
     }
+    .navbar2 {
+        display: none;
+        
+    }
+    .navbar3{
+        display: block!important;
+    }
+    .mobile-links{
+        max-width:70%;
+        margin: auto;
+        height: 100vh;
+    }
+    .mobile-links .menu-list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:start;
+        padding-top: 10%;
+        gap:30px;
+
+    }
+    .mobile-links .menu-list .item-svg {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .mobile-links .menu-list .item-svg .item1{
+        font-size: 30px;
+    }
+   
      body .main .content1 .con1-1 { 
         display: flex;
         flex-direction: column-reverse;
@@ -259,7 +289,7 @@ display: none!important;
     justify-content: space-between;
     overflow-x: auto;
     scrollbar-width: none;
-    width: 150%;
+    width: 100%;
     gap:2%;
     padding: 0% 2%;
 }
@@ -334,7 +364,7 @@ align-items: center;
 }
 }
    @media screen and (max-width:724px) {
-
+  
     .head{ background-color:rgb(19, 19, 19) ;
         padding: 16px;
          line-height: 1.2;
@@ -364,6 +394,17 @@ align-items: center;
    width: 85%; 
    margin: auto; 
   }
+  .content4 .con4-3{
+    width: 120%; 
+}
+.con4-3 img.logo2{
+    
+    width: 134px;
+    height: 134px;
+    padding: 22px;
+    
+   
+}
  
   .main .content5 .con5-2 .con5-2-2{
     width: 100%;
@@ -415,7 +456,7 @@ header{
     z-index: 1001;
     
 }
-.navbar{
+.navbar1{
     
     display: flex;
     align-items: center;
@@ -542,6 +583,9 @@ padding: 0px 5px;
     text-wrap: nowrap;
 }
 .sign i{
+    display: none;
+}
+.navbar2{
     display: none;
 }
 /* but-header */
@@ -790,10 +834,11 @@ width: 100%;
     gap: 32px;
     width: 75%;
 } 
-@media screen and (min-width:1024px) {
+@media screen and (min-width:1025px) {
     .content4 .con4-3{
         display: none;
     }  
+
 }
 
 .con4-1 p , .con4-1 a
@@ -1213,6 +1258,10 @@ text-align: center;
    }
    .footer .footer1  .ulfs{
     display: none;
+
+   }
+   #lang option{
+background-color: rgb(128, 131, 130);
 
    }
    @media screen and (max-width:1024px){
